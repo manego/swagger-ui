@@ -463,6 +463,11 @@
         @include method($_color-options);
     }
 
+    &.opblock-send
+    {
+        @include method($_color-send);
+    }
+
     &.opblock-deprecated
     {
         opacity: .6;

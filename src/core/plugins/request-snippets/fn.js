@@ -106,7 +106,7 @@ const curlify = (request, escape, newLine, ext = "") => {
 
   const body = request.get("body")
   if (body) {
-    if (isMultipartFormDataRequest && ["POST", "PUT", "PATCH"].includes(request.get("method"))) {
+    if (isMultipartFormDataRequest && ["POST", "PUT", "PATCH","SEND"].includes(request.get("method"))) {
       for (let [k, v] of body.entrySeq()) {
         let extractedKey = extractKey(k)
         addNewLine()
@@ -147,7 +147,10 @@ const curlify = (request, escape, newLine, ext = "") => {
         addWordsWithoutLeadingSpace(getStringBodyOfMap(request))
       }
     }
-  } else if (!body && request.get("method") === "POST") {
+  } else if (!body && (
+      request.get("method") === "POST"|| 
+      request.get("method") === "SEND"
+    )) {
     addNewLine()
     addIndent()
     addWordsWithoutLeadingSpace("-d ''")
