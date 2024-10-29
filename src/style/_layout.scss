@@ -468,6 +468,81 @@
         @include method($_color-send);
     }
 
+    &.opblock-set
+    {
+        @include method($_color-set);
+    }
+
+    &.opblock-update
+    {
+        @include method($_color-update);
+    }
+
+    &.opblock-replace
+    {
+        @include method($_color-replace);
+    }
+
+    &.opblock-save
+    {
+        @include method($_color-save);
+    }
+
+    &.opblock-upload
+    {
+        @include method($_color-upload);
+    }
+
+    &.opblock-create
+    {
+        @include method($_color-create);
+    }
+
+    &.opblock-import
+    {
+        @include method($_color-import);
+    }
+
+    &.opblock-move
+    {
+        @include method($_color-move);
+    }
+
+    &.opblock-fetch
+    {
+        @include method($_color-fetch);
+    }
+
+    &.opblock-validate
+    {
+        @include method($_color-validate);
+    }
+
+    &.opblock-duplicate
+    {
+        @include method($_color-duplicate);
+    }
+
+    &.opblock-add
+    {
+        @include method($_color-add);
+    }
+
+    &.opblock-convert
+    {
+        @include method($_color-convert);
+    }
+
+    &.opblock-trigger
+    {
+        @include method($_color-trigger);
+    }
+
+    &.opblock-cancel
+    {
+        @include method($_color-cancel);
+    }
+
     &.opblock-deprecated
     {
         opacity: .6;
