@@ -428,99 +428,9 @@
 
 
 
-    &.opblock-post
+    &.opblock-accept
     {
-        @include method($_color-post);
-    }
-
-    &.opblock-put
-    {
-        @include method($_color-put);
-    }
-
-    &.opblock-delete
-    {
-        @include method($_color-delete);
-    }
-
-    &.opblock-get
-    {
-        @include method($_color-get);
-    }
-
-    &.opblock-patch
-    {
-        @include method($_color-patch);
-    }
-
-    &.opblock-head
-    {
-        @include method($_color-head);
-    }
-
-    &.opblock-options
-    {
-        @include method($_color-options);
-    }
-
-    &.opblock-send
-    {
-        @include method($_color-send);
-    }
-
-    &.opblock-set
-    {
-        @include method($_color-set);
-    }
-
-    &.opblock-update
-    {
-        @include method($_color-update);
-    }
-
-    &.opblock-replace
-    {
-        @include method($_color-replace);
-    }
-
-    &.opblock-save
-    {
-        @include method($_color-save);
-    }
-
-    &.opblock-upload
-    {
-        @include method($_color-upload);
-    }
-
-    &.opblock-create
-    {
-        @include method($_color-create);
-    }
-
-    &.opblock-import
-    {
-        @include method($_color-import);
-    }
-
-    &.opblock-move
-    {
-        @include method($_color-move);
-    }
-
-    &.opblock-fetch
-    {
-        @include method($_color-fetch);
-    }
-
-    &.opblock-validate
-    {
-        @include method($_color-validate);
-    }
-
-    &.opblock-duplicate
-    {
-        @include method($_color-duplicate);
+        @include method($_color-accept);
     }
 
     &.opblock-add
@@ -528,9 +438,184 @@
         @include method($_color-add);
     }
 
+    &.opblock-apply
+    {
+        @include method($_color-apply);
+    }
+
+    &.opblock-cancel
+    {
+        @include method($_color-cancel);
+    }
+
+    &.opblock-changepassword
+    {
+        @include method($_color-changepassword);
+    }
+
+    &.opblock-changeusername
+    {
+        @include method($_color-changeusername);
+    }
+
+    &.opblock-check
+    {
+        @include method($_color-check);
+    }
+
+    &.opblock-checkauth
+    {
+        @include method($_color-checkauth);
+    }
+
+    &.opblock-consent
+    {
+        @include method($_color-consent);
+    }
+
     &.opblock-convert
     {
         @include method($_color-convert);
+    }
+
+    &.opblock-create
+    {
+        @include method($_color-create);
+    }
+
+    &.opblock-delete
+    {
+        @include method($_color-delete);
+    }
+
+    &.opblock-duplicate
+    {
+        @include method($_color-duplicate);
+    }
+
+    &.opblock-export
+    {
+        @include method($_color-export);
+    }
+
+    &.opblock-fetch
+    {
+        @include method($_color-fetch);
+    }
+
+    &.opblock-get
+    {
+        @include method($_color-get);
+    }
+
+    &.opblock-head
+    {
+        @include method($_color-head);
+    }
+
+    &.opblock-import
+    {
+        @include method($_color-import);
+    }
+
+    &.opblock-invalidate
+    {
+        @include method($_color-invalidate);
+    }
+
+    &.opblock-login
+    {
+        @include method($_color-login);
+    }
+
+    &.opblock-logout
+    {
+        @include method($_color-logout);
+    }
+
+    &.opblock-move
+    {
+        @include method($_color-move);
+    }
+
+    &.opblock-options
+    {
+        @include method($_color-options);
+    }
+
+    &.opblock-patch
+    {
+        @include method($_color-patch);
+    }
+
+    &.opblock-post
+    {
+        @include method($_color-post);
+    }
+
+    &.opblock-process
+    {
+        @include method($_color-process);
+    }
+
+    &.opblock-put
+    {
+        @include method($_color-put);
+    }
+
+    &.opblock-recoverpassword
+    {
+        @include method($_color-recoverpassword);
+    }
+
+    &.opblock-renewtoken
+    {
+        @include method($_color-renewtoken);
+    }
+
+    &.opblock-replace
+    {
+        @include method($_color-replace);
+    }
+
+    &.opblock-reqchangeusername
+    {
+        @include method($_color-reqchangeusername);
+    }
+
+    &.opblock-revoke
+    {
+        @include method($_color-revoke);
+    }
+
+    &.opblock-save
+    {
+        @include method($_color-save);
+    }
+
+    &.opblock-send
+    {
+        @include method($_color-send);
+    }
+
+    &.opblock-sendmail
+    {
+        @include method($_color-sendmail);
+    }
+
+    &.opblock-set
+    {
+        @include method($_color-set);
+    }
+
+    &.opblock-start
+    {
+        @include method($_color-start);
+    }
+
+    &.opblock-trace
+    {
+        @include method($_color-trace);
     }
 
     &.opblock-trigger
@@ -538,9 +623,24 @@
         @include method($_color-trigger);
     }
 
-    &.opblock-cancel
+    &.opblock-update
     {
-        @include method($_color-cancel);
+        @include method($_color-update);
+    }
+
+    &.opblock-upload
+    {
+        @include method($_color-upload);
+    }
+
+    &.opblock-validate
+    {
+        @include method($_color-validate);
+    }
+
+    &.opblock-verifysso
+    {
+        @include method($_color-verifysso);
     }
 
     &.opblock-deprecated

@@ -110,7 +110,7 @@ const curlify = (request, escape, newLine, ext = "") => {
         "POST", "PUT", "PATCH","SEND", "SET",
         "UPDATE", "REPLACE", "SAVE", "UPLOAD",
         "CREATE", "IMPORT", "MOVE", "VALIDATE",
-        "ADD", "CONVERT", "TRIGGER"
+        "ADD", "CONVERT", "TRIGGER", "SENDMAIL"
       ].includes(request.get("method"))) {
       for (let [k, v] of body.entrySeq()) {
         let extractedKey = extractKey(k)
